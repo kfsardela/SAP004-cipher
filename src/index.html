@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cifra de Cesar</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  
+  <h1>Bem vindo a Cifra de Cesar!</h1>
+  <p>Aqui você poderá criptografar ou descriptografar sua mensagem usando a técnica Cifra de Cesar!<br> Para isso basta seguir o passo a passo a seguir:</p>
+  <form action="Javascript:;" id="mensagem1">
+    <label for="msg">
+      Digite aqui a mensagem que você deseja cifrar ou decifrar:
+    </label>
+      <p>
+      <input type="text" name="msg" id="mensagemDigitada" value="">
+    </p>
+    <label for="deslocamento">
+      Coloque um numero de deslocamento:
+      </label>
+      <p>
+        <input type="text" name="deslocamento" id ="deslocamento" value="10">
+      </p>
+      <p>Escolha o que você quer fazer:</p>
+    <button id= botaoCifrar>Cifrar</button>
+    <button id= botaoDecifrar>Decifrar</button>
+  </form>
+  <div>
+    <p>Pronto! Aqui está sua mensagem <span id="codificacao"></span>  pela cifra de Cesar:</p>
+   <p id="novaMsg"></p>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
