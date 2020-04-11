@@ -11,6 +11,8 @@ function encode () {
 
     document.getElementById("codificacao").innerText = "cifrada"  
     document.getElementById("novaMsg").innerText = encodeMsg;
+    document.getElementsByClassName("msgCifrada")[0].classList.add("visivel")
+ 
 }
 botao1.addEventListener('click', encode)
 

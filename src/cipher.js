@@ -1,5 +1,10 @@
 const cipher = {
        encode: function (deslocamento, msg) {
+
+        if(deslocamento == "" || msg.length == 0){
+          throw new TypeError()
+          
+        }
         
         let mensagemCifrada = "";
         for (let i=0; i<msg.length; i++){
@@ -10,11 +15,11 @@ const cipher = {
         return mensagemCifrada;
       },
      decode: function (deslocamento, msg) {
-     
+         
       let mensagemCifrada = "";
       for (let i=0; i<msg.length; i++){
         
-        let resultado = ((msg.toUpperCase().charCodeAt(i) - 65 - deslocamento) % 26) + 65;
+        let resultado = ((msg.toUpperCase().charCodeAt(i) + 65 - deslocamento) % 26) + 65;
         mensagemCifrada += String.fromCharCode(resultado);
       }
       return mensagemCifrada;
