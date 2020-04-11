@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Cifra de Cesar</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+
+<body>
+  
+  <h1>Secret Posts</h1>
+   <header>
+     <p>Quer fazer um post nas redes sociais, mas só para algumas pessoas entenderem?<br> Mandar aquela indireta direta, ou se declarar para um crush ? Agora você pode! <br> Cifre aqui sua mensagem e mande o código de deslocamento para quem você quiser!</p>
+      <p>Aqui você poderá criptografar ou descriptografar sua mensagem usando a técnica Cifra de Cesar!<br> Para isso basta seguir o passo a passo a seguir:</p>
+      </header>
+      <main>
+      <form action="Javascript:;" id="mensagem1">
+    <label for="msg">
+      Digite aqui a mensagem que você deseja cifrar ou decifrar:
+    </label>
+      <p>
+      <textarea name="msg" id="mensagemDigitada" cols="50" rows="5"></textarea>
+    </p>
+    <label for="deslocamento">
+      Coloque um numero de deslocamento:
+      </label>
+      <p>
+        <input type="text" name="deslocamento" id ="deslocamento" value="">
+      </p>
+      <p>Escolha o que você quer fazer:</p>
+    <button id="botaoCifrar" class="botao">Cifrar</button>
+    <button id="botaoDecifrar" class="botao">Decifrar</button>
+  
+  <div class="msgCifrada">
+    <p>Pronto! Aqui está sua mensagem <span id="codificacao"></span> pela cifra de Cesar:</p>
+   <p id="novaMsg"></p>
+        </div>
+      </form>
+  <script src="index.js" type="module"></script>
+</main>
+</body>
+
+</html>
