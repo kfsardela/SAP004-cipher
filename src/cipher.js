@@ -1,7 +1,7 @@
 const cipher = {
        encode: function (deslocamento, msg) {
 
-        if(deslocamento == "" || msg.length == 0){
+        if(deslocamento == "" || msg.length == 0 || deslocamento < 0){
           throw new TypeError()
           
         }
@@ -15,6 +15,9 @@ const cipher = {
         return mensagemCifrada;
       },
      decode: function (deslocamento, msg) {
+      if(deslocamento == "" || msg.length == 0 || deslocamento < 0){
+        throw new TypeError()
+      }
          
       let mensagemCifrada = "";
       for (let i=0; i<msg.length; i++){
