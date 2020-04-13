@@ -52,20 +52,20 @@ Ferramentas utilizadas no projeto:
 
 ## Conhecimentos Adquiridos
 
-Organização e planejamento utilizando ferramentas como o Trello.
-Entender a importância do processo de prototipação durante a criação de um produto digital.
-Utilizar tags semânticas de HTML e elementos de formulário.
-Mostrar elementos de formulário na tela usando HTML e CSS.
-Utilizar diversos tipos de seletores no CSS: elementos, classes e id.
-Utilizar o modelo de caixas do CSS (border, margin, padding).
-Definir regras de estilo do CSS.
-Manipular eventos com o DOM.
-Manipular strings (cadeias de texto).
-Usar controle de fluxo (loops, condicionais,como o for, if e else).
-Trabalhar com funções.
-Testar as funções com Testes unitários (unit test) com Jest.
-Utilizar o git e GitHub.
-Fazer o fork e clone do repositório do projeto.
-Manter o repositório remoto sempre atualizado (commit, pull, push), utilizando o terminal.
-Subir o seu projeto para o Github Pages, fazendo deploy.
-Criar um READ ME
+* Organização e planejamento utilizando ferramentas como o Trello.
+* Entender a importância do processo de prototipação durante a criação de um produto digital.
+* Utilizar tags semânticas de HTML e elementos de formulário.
+* Mostrar elementos de formulário na tela usando HTML e CSS.
+* Utilizar diversos tipos de seletores no CSS: elementos, classes e id.
+* Utilizar o modelo de caixas do CSS (border, margin, padding).
+* Definir regras de estilo do CSS.
+* Manipular eventos com o DOM.
+* Manipular strings (cadeias de texto).
+* Usar controle de fluxo (loops, condicionais,como o for, if e else).
+* Trabalhar com funções.
+* Testar as funções com Testes unitários (unit test) com Jest.
+* Utilizar o git e GitHub.
+* Fazer o fork e clone do repositório do projeto.
+* Manter o repositório remoto sempre atualizado (commit, pull, push), utilizando o terminal.
+* Subir o seu projeto para o Github Pages, fazendo deploy.
+* Criar um READ ME
