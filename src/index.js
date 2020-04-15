@@ -1,31 +1,32 @@
 import cipher from './cipher.js';
 
-let botao1 = document.getElementById("botaoCifrar");
-let botao2 = document.getElementById("botaoDecifrar");
+const botaoCifrar = document.getElementById("botaoCifrar");
+const botaoDecifrar = document.getElementById("botaoDecifrar");
 
-function encode () {
-    let msgDigitada = document.getElementById("mensagemDigitada").value;
-    let deslocamento = parseInt(document.getElementById("deslocamento").value);
-    
-    let encodeMsg = cipher.encode(deslocamento, msgDigitada)
+function encode() {
+    const msgDigitada = document.getElementById("mensagemDigitada").value;
+    const deslocamento = parseInt(document.getElementById("deslocamento").value);
 
-    document.getElementById("codificacao").innerText = "cifrada"  
+    const encodeMsg = cipher.encode(deslocamento, msgDigitada)
+
+    document.getElementById("codificacao").innerText = "cifrada"
     document.getElementById("novaMsg").innerText = encodeMsg;
     document.getElementsByClassName("msgCifrada")[0].classList.add("visivel")
- 
+
 }
-botao1.addEventListener('click', encode)
+botaoCifrar.addEventListener('click', encode)
 
-function decode () {
-    let msgDigitada = document.getElementById("mensagemDigitada").value;
-    let deslocamento = parseInt(document.getElementById("deslocamento").value);
-    
-    let decodeMsg = cipher.decode(deslocamento, msgDigitada)
+function decode() {
+    const msgDigitada = document.getElementById("mensagemDigitada").value;
+    const deslocamento = parseInt(document.getElementById("deslocamento").value);
 
-    document.getElementById("codificacao").innerText = "decifrada"  
+    const decodeMsg = cipher.decode(deslocamento, msgDigitada)
+
+    document.getElementById("codificacao").innerText = "decifrada"
     document.getElementById("novaMsg").innerText = decodeMsg;
-   
-  }
-  botao2.addEventListener('click', decode)
+    document.getElementsByClassName("msgCifrada")[0].classList.add("visivel")
+
+}
+botaoDecifrar.addEventListener('click', decode)
 
 
