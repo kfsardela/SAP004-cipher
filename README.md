@@ -1,7 +1,7 @@
 # Secret Posts
 
 Uma plataforma que possibilita ao usuário cifrar e decifrar palavras utilizando a técnica Cifra de Cesar.
-Para saber mais sobre a Cifra de Cesar [clique aqui](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+Para saber mais sobre a Cifra de Cesar [clique aqui](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar).
  
 
 ## Usuário
@@ -69,3 +69,9 @@ Ferramentas utilizadas no projeto:
 * Manter o repositório remoto sempre atualizado (commit, pull, push), utilizando o terminal.
 * Subir o seu projeto para o Github Pages, fazendo deploy.
 * Criar um READ ME
+
+## Autora
+
+Karine Sardela
+
+Projeto desenvolvido para fins de aprendizado no Bootcamp da Laboratória.
